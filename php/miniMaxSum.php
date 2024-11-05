@@ -28,7 +28,7 @@ function miniMaxSum1($arr) {
     $maxSum = $totalSum - $minValue;
     echo $minSum . " " . $maxSum;
 }
-$arr = array(1, 2, 3, 4, 5);
+$arr = [1, 2, 3, 4, 5];
 miniMaxSum1($arr);
 
 ?>
