@@ -17,7 +17,6 @@ function timeConversion($s) {
     } elseif ($ampm === "PM") {
         $hour = $hour !== 12 ? $hour + 12 : $hour;
     }
-
     return sprintf("%02d:%s:%s", $hour, $timeParts[1], $timeParts[2]);
 }
 
